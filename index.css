@@ -1,0 +1,114 @@
+*{
+ 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 1);
+    
+   
+}
+
+body {
+   /* background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;*/
+}
+
+section {
+    font-weight: 600;
+    
+    width: 100%;
+    min-height: auto;
+    border: none;
+    
+    
+}
+
+.content-box {
+    position: absolute;
+    width: auto;
+    height: min-content;
+    height: fit-content;
+    padding: 10px;
+    
+  
+   
+    
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 1);
+   
+}
+
+.personal-detail {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-bozo {
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta {
+    
+   
+    
+}
+
+.insta ion-icon {
+    position: absolute;
+    margin-left: 5px;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
